@@ -115,6 +115,30 @@ input[type="checkbox"]{
 
 
 
+/*--- CARRITO ---*/
+
+.submenu {
+  position: relative;
+}
+
+.submenu #carrito{
+  display: none;
+}
+
+.submenu:hover #carrito{
+  display: block;
+  position: absolute;
+  right:0;
+
+  top:100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+
+
 
 
 
@@ -585,7 +609,8 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 50vh;
+  margin-top: 45px;
+  margin-left: -100px;
 }
 
 .wrapper .icon {
